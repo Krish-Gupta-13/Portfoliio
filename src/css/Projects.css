@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: linear-gradient(rgb(209, 232, 232),rgb(212, 221, 229));
+}
+.projectbody{
+    height: 60vh;
+}
+.projectheader{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 3rem; */
+    font-size: 2.3rem;
+}
+#projects{
+    display: flex;
+    width: 15%;
+}
+
+.conatinerrr{
+    display: flex;
+}
+.card{
+    /* display: flex; */
+    height: 40%;
+    width: 30%;
+    position: absolute;
+    margin-left: 4rem;
+}
+
+.card2{
+    padding-left: 17rem;
+}
+.card3{
+    padding-left: 17rem;
+}
+.card4{
+    padding-left:17rem;
+}
+
+.back{
+    flex-direction: column;
+}
+.front video{
+    border-radius: 1rem;
+    z-index: -1;
+}
+.card p{
+    /* padding-left: 4rem; */
+    padding-top: 1rem;
+    font-weight: 1000;
+    font-size: 1.2rem;
+}
+.con{
+    display: flex;
+}
+.card img{
+    padding-top: .5rem;
+    height: 2rem;
+    width: 2rem;
+}
+.con a{
+    cursor: pointer;
+}

@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.projectbody{
+    height: 60vh;
+}
+.projectheader{
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    font-size: 2.3rem;
+}
+#projects{
+    display: flex;
+    width: 15%;
+    margin-top: 2rem;
+}
+
+.conatinerrr{
+    display: flex;
+    width: 200px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    perspective: 100px;
+    margin-top: 4rem;
+}
+
+
+.containerrr.hover > .card{
+    cursor: pointer;
+    transform: rotateY(180deg);
+    
+}
+.card{
+    height: 30%;
+    width: 20%;
+    position: absolute;
+    transition: transform 1500ms;
+    transform-style: preserve-3d;  
+    margin-left: 4rem;
+}
+/* .front,
+.back{
+    height: 100%;
+    width: 100%;
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+    position: absolute;
+    backface-visibility: hidden;
+    
+}
+.front,
+.back:hover{
+    box-shadow: 0 0 5px 2px rgba(50, 50, 50, 0.25);
+}
+
+.card:hover{
+    transform: rotateY(180deg);
+    cursor: pointer;
+}
+
+.back{
+    background-color: pink;
+    transform: rotateY(180deg);
+    display: flex;
+    height: 170px;
+    width: 200px;
+}  */
+
+.card2{
+    padding-left: 17rem;
+}
+.card3{
+    padding-left: 17rem;
+}
+.card4{
+    padding-left:17rem;
+}
+
+.back{
+    flex-direction: column;
+}
+.card .back h1{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding-left: 3rem;
+    padding-top: 1.7rem;
+}
+
+.card .back p{
+    font-size: .7rem;
+    padding-left: 1.3rem;
+    padding-top: 1rem;
+    font-style: italic;
+} 
+.front img{
+    height: 4rem;
+    width: 4rem;
+}

@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    font-family: Galaxie, Lustria, "Times New Roman", serif;
+    padding: 0;
+}
+.aboutmebody{
+    padding-top: 30vh;
+    padding-bottom: 2rem;
+
+}
+.holder{
+    font-family: Galaxie, Lustria, "Times New Roman", serif;
+    display: flex;
+}
+.left{
+    width: 40%;
+    
+}
+.right{
+    margin: 3rem;
+    width: 60%;
+}
+.right p{
+    font-family: Galaxie, Lustria, "Times New Roman", serif;
+    padding-top: 2rem;
+    line-height: 1.5rem;
+    
+
+}
+img{
+    margin-left: 4rem;
+    border-radius: 1rem;
+    width: 18rem;
+    height: 22rem;
+}

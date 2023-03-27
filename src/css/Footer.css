@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.footerbody{
+    /* margin-bottom: 0; */
+    background-color: black;
+}
+.footerheader h1{
+    padding-top: 2rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    padding-bottom: 1.2rem;
+}
+
+h3{
+    color: white;
+    margin-top: 1rem;
+    margin-left: 8rem;
+    display: flex;
+    font-size: 2rem;
+    font-family: Galaxie, Lustria, "Times New Roman", serif;
+}
+.leftf img{
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
+    margin-left: 8.2rem;
+}
+.rightf img{
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem;
+    margin-left: 8.2rem;
+}
+.foot{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 2rem;
+    color: white;
+}
+.foot h6{
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    font-style: italic;
+}
