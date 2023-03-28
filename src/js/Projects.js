@@ -15,21 +15,36 @@ export default function Projects() {
       <div className='projectbody' id='projectss'>
             <div className="card">   
                 <img src={img5} alt="" />
-  {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/}
+                <div className="cardbot">
+                    <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>
+                    <button className='btnn'><a href="https://docs.google.com/document/d/1CNLl_UyUQ1htoozDjhSPkB5oxBK1MbMK/edit?usp=drivesdk&ouid=112476948555225174066&rtpof=true&sd=true">Visit Here</a></button>
+                </div>
             </div>
 
             <div className="card">
                 <img src={img2} width="220" height="200" controls="controls" autoplay="false" />
+                <div className="cardbot">
+                    <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>
+                    <button className='btnn'><a href="https://docs.google.com/document/d/1CNLl_UyUQ1htoozDjhSPkB5oxBK1MbMK/edit?usp=drivesdk&ouid=112476948555225174066&rtpof=true&sd=true">Visit Here</a></button>
+                </div>
                 {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/} 
             </div>
 
             <div className="card">
                 <img src={img3} width="220" height="200" controls="controls" autoplay="false"/>
+                <div className="cardbot">
+                    <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>
+                    <button className='btnn'><a href="https://docs.google.com/document/d/1CNLl_UyUQ1htoozDjhSPkB5oxBK1MbMK/edit?usp=drivesdk&ouid=112476948555225174066&rtpof=true&sd=true">Visit Here</a></button>
+                </div>
                {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/}
             </div>
         
             <div className="card">
                 <img src={img4} width="220" height="200" controls="controls" autoplay="false" />
+                <div className="cardbot">
+                    <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>
+                    <button className='btnn'><a href="https://docs.google.com/document/d/1CNLl_UyUQ1htoozDjhSPkB5oxBK1MbMK/edit?usp=drivesdk&ouid=112476948555225174066&rtpof=true&sd=true">Visit Here</a></button>
+                </div>
           {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/}
             </div>
      </div>

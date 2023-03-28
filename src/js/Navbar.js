@@ -9,7 +9,7 @@ export default function Navbar() {
           <li className = "navli"> <a href ="#about">Home</a></li>
           <li className = "navli"> <a href ="#aboutme">About</a></li>
           <li className = "navli"> <a href="#skills">Skills</a></li>
-          <li className = "navli"> <a href ="#projects">Projects</a></li>
+          <li className = "navli"> <a href ="#projectss">Projects</a></li>
           <li className = "navli"> <a href ="#footer">Contact Me</a></li>
         </ul>
       </div>
