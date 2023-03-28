@@ -17,14 +17,14 @@ export default function Projects() {
                 <img src={img5} alt="" />
                 <div className="cardbot">
                     <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>
-                    <button className='btnn'><a href="https://docs.google.com/document/d/1CNLl_UyUQ1htoozDjhSPkB5oxBK1MbMK/edit?usp=drivesdk&ouid=112476948555225174066&rtpof=true&sd=true">Visit Here</a></button>
+                    <button className='btnn'><a href="hhttps://minipros.netlify.app/">Visit Here</a></button>
                 </div>
             </div>
 
             <div className="card">
                 <img src={img2} width="220" height="200" controls="controls" autoplay="false" />
                 <div className="cardbot">
-                    <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>
+                    <a href="https://github.com/Krish-Gupta-13/GeeksForGeekss"><img src={img1} alt="" /></a>
                     <button className='btnn'><a href="https://gfg-clo.netlify.app/">Visit Here</a></button>
                 </div>
                 {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/} 
@@ -33,8 +33,8 @@ export default function Projects() {
             <div className="card">
                 <img src={img3} width="220" height="200" controls="controls" autoplay="false"/>
                 <div className="cardbot">
-                    <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>
-                    <button className='btnn'><a href="https://docs.google.com/document/d/1CNLl_UyUQ1htoozDjhSPkB5oxBK1MbMK/edit?usp=drivesdk&ouid=112476948555225174066&rtpof=true&sd=true">Visit Here</a></button>
+                    <a href="https://github.com/Krish-Gupta-13/Atri-Labs"><img src={img1} alt="" /></a>
+                    <button className='btnn'><a href="https://atrilabs.netlify.app/">Visit Here</a></button>
                 </div>
                {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/}
             </div>
@@ -42,8 +42,8 @@ export default function Projects() {
             <div className="card">
                 <img src={img4} width="220" height="200" controls="controls" autoplay="false" />
                 <div className="cardbot">
-                    <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>
-                    <button className='btnn'><a href="https://docs.google.com/document/d/1CNLl_UyUQ1htoozDjhSPkB5oxBK1MbMK/edit?usp=drivesdk&ouid=112476948555225174066&rtpof=true&sd=true">Visit Here</a></button>
+                    <a href="https://github.com/Krish-Gupta-13/Cafessa"><img src={img1} alt="" /></a>
+                    <button className='btnn'><a href="https://cafessa.netlify.app/">Visit Here</a></button>
                 </div>
           {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/}
             </div>
