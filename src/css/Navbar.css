@@ -16,16 +16,15 @@ ul{
     display: flex;
     padding: .6rem;
     list-style: none;
-  }
+}
+
  li a{
   text-decoration: none; 
   color: white;
-
-
 }
+
 .navli{
     padding: 1rem;
-
 }
   
   .navli::after {
@@ -35,7 +34,6 @@ ul{
     height: 1.5px;
     width: 0%;
     transition: all 0.5s;
-    
   }
   
   .navli:hover::after, .navli ::after {
@@ -46,3 +44,18 @@ ul{
     cursor: pointer;
     color: gray;
   }
+
+
+  @media only screen and (max-width: 620px) and (min-width: 300px){
+    .nav{
+      position: fixed;
+      height: 7vh;
+      width: auto;
+      z-index: 10;
+      padding-left: .1rem;
+  }
+  .navli{
+    padding: .1rem;
+    margin: .441rem;
+}
+}

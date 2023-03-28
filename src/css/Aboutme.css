@@ -6,15 +6,14 @@
 .aboutmebody{
     padding-top: 30vh;
     padding-bottom: 2rem;
-
 }
+
 .holder{
-    font-family: Galaxie, Lustria, "Times New Roman", serif;
     display: flex;
+    font-family: Galaxie, Lustria, "Times New Roman", serif;
 }
 .left{
     width: 40%;
-    
 }
 .right{
     margin: 3rem;
@@ -24,12 +23,35 @@
     font-family: Galaxie, Lustria, "Times New Roman", serif;
     padding-top: 2rem;
     line-height: 1.5rem;
-    
-
 }
 img{
     margin-left: 4rem;
     border-radius: 1rem;
     width: 18rem;
     height: 22rem;
+}
+
+
+@media only screen and (max-width: 620px) and (min-width: 300px){
+    .holder{
+        flex-direction: column;
+        max-width: 310px;
+        padding-top: 1rem;
+    }
+    .right p{
+        padding-top: 1rem;
+        line-height: 1.4rem;
+        font-size: .8rem;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+    .aboutmebody{
+        padding-top: 3vh;
+        padding-bottom: 2rem;
+    }
+
 }

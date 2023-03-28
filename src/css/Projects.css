@@ -5,72 +5,33 @@
 .bg{
     background: linear-gradient(rgb(209, 232, 232),rgb(212, 221, 229));
 }
-.projectbody{
-    height: 60vh;
-}
+
 .projectheader{
     display: flex;
     justify-content: center;
-    /* margin-top: 3rem; */
     font-size: 2.3rem;
+   
 }
-#projects{
+.projectbody{
     display: flex;
-    width: 15%;
-}
-
-.conatinerrr{
-    display: flex;
-}
-.card{
-    /* display: flex; */
-    height: 40%;
-    width: 30%;
-    position: absolute;
-    margin-left: 2rem;
-}
-
-.card2{
-    padding-left: 17rem;
-}
-.card3{
-    padding-left: 17rem;
-}
-.card4{
-    padding-left:17rem;
-}
-
-.back{
-    flex-direction: column;
-}
-.card p{
-    /* padding-left: 4rem; */
-    padding-top: 1rem;
-    font-weight: 1000;
-    font-size: 1.2rem;
-}
-.con{
-    display: flex;
+    flex-wrap: wrap;
 }
 .card img{
     padding-top: .5rem;
-    height: 2rem;
-    width: 2rem;
-    
-}
-.con a{
-    cursor: pointer;
-}
-.containerrr p{
-    margin-left: 4rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.front img{
-    margin-top: 2rem;
+    margin-top: 3rem;
     height: 10rem;
     width: 14rem;
-    z-index: -1;
+    margin-bottom: 8rem;
+}
 
+
+
+@media only screen and (max-width: 620px) and (min-width: 300px){
+    #projects{
+        flex-direction: row;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
 }

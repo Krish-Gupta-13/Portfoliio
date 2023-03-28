@@ -8,20 +8,21 @@
     background-color: black;
 }
 .footerheader h1{
-    padding-top: 2rem;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-top: 2rem;
+    color: white;
     font-size: 3rem;
     padding-bottom: 1.2rem;
 }
 
 h3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     color: white;
     margin-top: 1rem;
-    margin-left: 8rem;
-    display: flex;
     font-size: 2rem;
     font-family: Galaxie, Lustria, "Times New Roman", serif;
 }
@@ -47,5 +48,29 @@ h3{
 .foot h6{
     font-size: 1.2rem;
     margin-top: 1rem;
-    /* font-style: italic; */
+}
+
+
+@media only screen and (max-width: 620px) and (min-width: 300px){
+    .leftf img{
+        height: 2rem;
+        width: 2rem;
+        margin: 1rem;
+        margin-left: 1.5rem;
+    }
+    .rightf img{
+        height: 2rem;
+        width: 2rem;
+        margin: 1rem;
+        margin-left: 1.5rem;
+    }
+    h3{
+        display: flex;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-family: Galaxie, Lustria, "Times New Roman", serif;
+    }
+    .footerheader h1{
+        font-size: 2rem;
+    }
 }

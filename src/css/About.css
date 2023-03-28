@@ -11,14 +11,19 @@
     left: 0px;
     top: 0px;
     right: 0px;
-    height: 48rem;
-    width: 114.6;
+    /* height: 48rem; */
+    height: auto;
+    /* width: 114.6; */
+    width: 100%;
     background-color: black;
     opacity: .9;
     z-index: -1;
     height: 100vh;
 }
-
+.aboutbody img{
+    width: 0rem;
+    height: 0rem;
+}
 .left h1{
     font-size: 3rem;
     font-family: Galaxie, Lustria, "Times New Roman", serif;
@@ -58,4 +63,39 @@ button:hover{
 }
 .btn a:hover{
     color: black;
+}
+
+@media only screen and (max-width: 620px) and (min-width: 300px){
+   
+    .aboutbody::after{
+        margin-left: 0;
+        content: "";
+        background: url('../Images/bg2.webp') no-repeat center center/cover;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        height: 30rem;
+        width: 24rem;
+        background-color: black;
+        opacity: .9;
+        z-index: -1;
+
+    }
+    .left h1{
+        font-size: 1.8rem;
+        padding-top: 18rem;
+        color: white;
+    }
+    .left h2{
+        padding-top: .5rem;
+        font-size: 1.2rem;
+        color: white;
+    }
+    .btn{
+        height: 2rem;
+        width: 8rem;
+        font-size: 1.2rem;
+    }
+
 }

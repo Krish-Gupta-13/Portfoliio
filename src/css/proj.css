@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bg{
+    background: linear-gradient(rgb(209, 232, 232),rgb(212, 221, 229));
+}
+.projectbody{
+    height: 60vh;
+}
+
+/* .container{
+    display: flex;
+    flex-wrap: wrap;
+} */
+.projectheader{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 3rem; */
+    font-size: 2.3rem;
+   
+}
+#projects{
+    display: flex;
+    width: 15%;
+}
+
+.conatinerrr{
+    display: flex;
+}
+.conatiner img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.card{
+    display: flex;
+
+    height: 40%;
+    width: 30%;
+    position: absolute;
+    /* margin-left: 2rem; */
+    
+}
+
+/* .card2{
+    padding-left: 17rem;
+}
+.card3{
+    padding-left: 35rem;
+}
+.card4{
+    padding-left:52rem;
+} */
+
+.back{
+    flex-direction: column;
+}
+
+.con{
+    display: flex;
+}
+.card img{
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: .5rem;
+    height: 2rem;
+    width: 2rem;
+    
+}
+.con a{
+    cursor: pointer;
+}
+.containerrr p{
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.front img{
+    margin-top: 2rem;
+    height: 10rem;
+    width: 14rem;
+    z-index: -1;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 620px) and (min-width: 300px){
+    #projects{
+        flex-direction: row;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

@@ -12,62 +12,29 @@ export default function Projects() {
       <div className="projectheader">
           <h1>Projects</h1>
       </div>
-      <div className='projectbody' id='projects'>
-<section id='projects'>
-<div className="containerrr">
-        <div class="card1">
-            <div class="card">
-                <div class="front">
+      <div className='projectbody' id='projectss'>
+            <div className="card">   
                 <img src={img5} alt="" />
-                </div>
-                <div className="con">
-                <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>
-                </div>
+  {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/}
             </div>
-    </div>
-     </div>
-     <div className="containerrr">
-        <div class="card2">
-        <div class="card">
-            <div class="front">
-            <img src={img2} width="220" height="200" controls="controls" autoplay="false" />
+
+            <div className="card">
+                <img src={img2} width="220" height="200" controls="controls" autoplay="false" />
+                {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/} 
             </div>
-            <div className="con">
-            <a href="https://github.com/Krish-Gupta-13/GeeksForGeekss"><img src={img1} alt="" /></a>
+
+            <div className="card">
+                <img src={img3} width="220" height="200" controls="controls" autoplay="false"/>
+               {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/}
             </div>
-            
+        
+            <div className="card">
+                <img src={img4} width="220" height="200" controls="controls" autoplay="false" />
+          {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/}
             </div>
-    </div>
-     </div>
-     
-     <div className="containerrr">
-        <div class="card3">
-        <div class="card">
-            <div class="front">
-            <img src={img3} width="220" height="200" controls="controls" autoplay="false"/>
-            </div>
-            <div className="con">
-            <a href="https://github.com/Krish-Gupta-13/Atri-Labs"><img src={img1} alt="" /></a>
-            </div>
-        </div>
-    </div>
      </div>
 
-     <div className="containerrr">
-        <div class="card4">
-        <div class="card">
-            <div class="front">
-            <img src={img4} width="220" height="200" controls="controls" autoplay="false" />
-            </div>
-            <div className="con">
-            <a href="https://github.com/Krish-Gupta-13/Cafessa"><img src={img1} alt="" /></a>
-            </div>
-        </div>
-    </div>
-     </div>
-     </section>
-     </div>
-     </div>
-// </div>
+</div>
+
   )
 }

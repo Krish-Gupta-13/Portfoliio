@@ -19,10 +19,8 @@ export default function Footer() {
     </div>
     
         <div className="footerlinks">
-
           <div className="leftf">
             <h3>Social Media</h3>
-            <a href="https://github.com/Krish-Gupta-13"></a>
             <ul>
               <li><a href="https://www.facebook.com/profile.php?id=100078260750876"><img src={img1} alt="" /></a></li>
               <li><a href="https://instagram.com/_krish_gupta_13_?igshid=ZDdkNTZiNTM="><img src={img2} alt="" /></a></li>
@@ -41,10 +39,7 @@ export default function Footer() {
               <li><a href="https://auth.geeksforgeeks.org/user/krishguptaa13/"><img src={img8} alt="" /></a></li>
               <li><a href="https://leetcode.com/Krish-Gupta/"><img src={img9} alt="" /></a></li>
               <li><a href="https://www.hackerrank.com/krishguptaa13"><img src={img10} alt="" /></a></li>
-            </ul>
-            
-            
-            
+            </ul>     
           </div>
         </div>
 
