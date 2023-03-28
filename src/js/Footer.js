@@ -6,7 +6,7 @@ import img4 from '../Images/github.png'
 import img5 from '../Images/discord.png'
 import img6 from '../Images/cf.jpg'
 import img7 from '../Images/cc.png'
-import img8 from '../Images/gfg.png'
+import img8 from '../Images/geeks.png'
 import img9 from '../Images/leetcode.jpg'
 import img10 from '../Images/hr.jpg'
 

@@ -47,5 +47,5 @@ h3{
 .foot h6{
     font-size: 1.2rem;
     margin-top: 1rem;
-    font-style: italic;
+    /* font-style: italic; */
 }

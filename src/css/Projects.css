@@ -27,7 +27,7 @@
     height: 40%;
     width: 30%;
     position: absolute;
-    margin-left: 4rem;
+    margin-left: 2rem;
 }
 
 .card2{
@@ -43,10 +43,6 @@
 .back{
     flex-direction: column;
 }
-.front video{
-    border-radius: 1rem;
-    z-index: -1;
-}
 .card p{
     /* padding-left: 4rem; */
     padding-top: 1rem;
@@ -60,7 +56,21 @@
     padding-top: .5rem;
     height: 2rem;
     width: 2rem;
+    
 }
 .con a{
     cursor: pointer;
+}
+.containerrr p{
+    margin-left: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.front img{
+    margin-top: 2rem;
+    height: 10rem;
+    width: 14rem;
+    z-index: -1;
+
 }
