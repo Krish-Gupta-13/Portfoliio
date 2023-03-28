@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Caveat&family=Raleway:wght@300&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -15,6 +19,7 @@
     justify-content: center;
     align-items: center;
     font-size: 4rem;
+    font-family: 'Raleway', 'Alkatra';
 }
 
 .heading{
@@ -22,9 +27,11 @@
     margin: 2rem;
     align-items: center;
     justify-content: center;
+    font-family: 'Raleway';
 }
 .heading h1{
     font-size: 3rem;
+    font-family: 'Raleway';
 }
 .mainbox{
     display: flex;
@@ -42,7 +49,8 @@
 }
 
 .borderbox2{
-    
+    display: flex;
+    /* flex-wrap: wrap; */
     border: 2px solid black;
     height: 11rem;
     width: 18rem;
@@ -81,6 +89,8 @@
     margin: .5rem;
 }
 
+
+
 .box2 img{
     display: flex;
     height: 4.7rem;
@@ -88,6 +98,7 @@
     padding-left: 2.3rem;
     padding-top: 1.2rem;
 }
+
 .box1 p{
     display: flex;
     align-items: center;
@@ -102,8 +113,19 @@
     margin-bottom: 3rem;
     padding-bottom: 3rem;
 }
-
-
+.flexi{
+    display: flex;
+    flex-wrap: wrap;
+}
+.box2 h2{
+    margin-left: 5.2rem;
+}
+.box2 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4.7rem;
+}
 
 @media only screen and (max-width: 620px) and (min-width: 300px){
     .header h1{
@@ -117,10 +139,17 @@
         padding-top: 1.2rem;
         height: 3.7rem;
         width: 4rem;
+        margin-right: 3rem;
+    }
+    .box2 img{
+        padding-left: 0rem;
+        padding-top: 1.2rem;
+        height: 3.7rem;
+        width: 4rem;
     }
     .borderbox2{
-        margin-left: 5.2rem;
-        border-radius: .7rem;
+        width: 40%;
+        margin: 1rem;
     }
     .borderbox{
         width: 40%;
@@ -129,5 +158,27 @@
     .box1 p{
         margin-bottom: 1rem;
         font-size: .8rem;
+    }
+    .flexi{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .box2 h2{
+        font-size: 1.3rem;
+        margin-left: 1.1rem;
+    }
+    .box2 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: .7rem;
+    }
+    .mainbox img{
+        margin: 0;
+        margin-left: 3rem;
+    }
+    .flexi img{
+        margin: 0;
+        margin-left: 3rem;
     }
 }

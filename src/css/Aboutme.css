@@ -1,16 +1,17 @@
 *{
     margin: 0;
-    font-family: Galaxie, Lustria, "Times New Roman", serif;
     padding: 0;
 }
 .aboutmebody{
     padding-top: 30vh;
     padding-bottom: 2rem;
 }
+.header h1{
+    font-family: 'Raleway', 'Alkatra';
+}
 
 .holder{
     display: flex;
-    font-family: Galaxie, Lustria, "Times New Roman", serif;
 }
 .left{
     width: 40%;

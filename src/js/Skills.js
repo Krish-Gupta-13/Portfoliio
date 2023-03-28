@@ -55,7 +55,7 @@ export default function Skills() {
           </div>
       </div> 
 
-      <div className="mainbox">
+   <div className="flexi">
         <div className="borderbox2">
           <div className="box2">
             <img src={img4} alt="" />
@@ -70,7 +70,7 @@ export default function Skills() {
             <p>(Intermediate)</p>
           </div>
         </div> 
-      </div> 
+    </div>
       <div className="heading">
         <h1>Back-End</h1>
       </div>
