@@ -12,6 +12,7 @@
 
 .holder{
     display: flex;
+    /* flex-direction: row; */
 }
 .left{
     width: 40%;
@@ -21,6 +22,7 @@
     width: 60%;
 }
 .right p{
+    /* display: flex; */
     font-family: Galaxie, Lustria, "Times New Roman", serif;
     padding-top: 2rem;
     line-height: 1.5rem;
@@ -36,7 +38,33 @@ img{
 @media only screen and (max-width: 620px) and (min-width: 300px){
     .holder{
         flex-direction: column;
-        max-width: 310px;
+        /* max-width: 610px; */
+        padding-top: 1rem;
+    }
+    .right p{
+        width: 90%;
+        padding-top: 1rem;
+        line-height: 1.4rem;
+        font-size: .8rem;
+    }
+    .left{
+        
+        width: 80%;
+    }
+    .right{
+        width: 90%;
+    }
+    .aboutmebody{
+        padding-top: 3vh;
+        padding-bottom: 2rem;
+    }
+
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 620px){
+    .holder{
+        flex-direction: column;
+        /* max-width: 310px; */
         padding-top: 1rem;
     }
     .right p{
@@ -48,7 +76,7 @@ img{
         width: 100%;
     }
     .right{
-        width: 100%;
+        width: 90%;
     }
     .aboutmebody{
         padding-top: 3vh;

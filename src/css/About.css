@@ -97,5 +97,39 @@ button:hover{
         width: 8rem;
         font-size: 1.2rem;
     }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 620px){
+   
+    .aboutbody::after{
+        margin-left: 0;
+        content: "";
+        background: url('../Images/bg2.webp') no-repeat center center/cover;
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        right: 0px;
+        height: 30rem;
+        width: 24rem;
+        background-color: black;
+        opacity: .9;
+        z-index: -1;
+
+    }
+    .left h1{
+        font-size: 1.8rem;
+        padding-top: 18rem;
+        color: white;
+    }
+    .left h2{
+        padding-top: .5rem;
+        font-size: 1.2rem;
+        color: white;
+    }
+    .btn{
+        height: 2rem;
+        width: 8rem;
+        font-size: 1.2rem;
+    }
 
 }

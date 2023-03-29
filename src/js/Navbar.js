@@ -4,8 +4,10 @@ import React from 'react'
 export default function Navbar() {
   return (
     <div>
-      <div className="nav">
-        <ul>
+    <div className="nav">
+    <div className="leftn">
+    <h1>PORTFOLIO</h1></div>
+    <ul>
           <li className = "navli"> <a href ="#about">Home</a></li>
           <li className = "navli"> <a href ="#aboutme">About</a></li>
           <li className = "navli"> <a href="#skills">Skills</a></li>

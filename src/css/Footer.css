@@ -28,6 +28,14 @@ h3{
     font-size: 2rem;
     font-family: Galaxie, Lustria, "Times New Roman", serif;
 }
+.rightf{
+    align-items: center;
+    justify-content: center;
+}
+.leftf{
+    align-items: center;
+    justify-content: center;
+}
 .leftf img{
     height: 4rem;
     width: 4rem;
@@ -55,6 +63,36 @@ h3{
 
 
 @media only screen and (max-width: 620px) and (min-width: 300px){
+    /* .leftf li a{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    } */
+    .leftf img{
+        /* margin: auto; */
+        height: 2rem;
+        width: 2rem;
+        margin: 1rem;
+        margin-left: 1.5rem;
+    }
+    .rightf img{
+        height: 2rem;
+        width: 2rem;
+        margin: 1rem;
+        margin-left: 1.5rem;
+    }
+    h3{
+        display: flex;
+        margin-top: 1rem;
+        font-size: 1.3rem;
+        font-family: Galaxie, Lustria, "Times New Roman", serif;
+    }
+    .footerheader h1{
+        font-size: 2rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 620px){
     .leftf img{
         height: 2rem;
         width: 2rem;

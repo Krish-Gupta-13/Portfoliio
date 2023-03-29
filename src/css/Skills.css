@@ -182,3 +182,60 @@
         margin-left: 3rem;
     }
 }
+
+
+@media only screen and (max-width: 1200px) and (min-width: 620px){
+    .header h1{
+        font-size: 3rem;
+    }
+    .heading h1{
+        font-size: 2rem;
+    }
+    .box1 img{
+        padding-left: 0rem;
+        padding-top: 1.2rem;
+        height: 3.7rem;
+        width: 4rem;
+        margin-right: 3rem;
+    }
+    .box2 img{
+        padding-left: 0rem;
+        padding-top: 1.2rem;
+        height: 3.7rem;
+        width: 4rem;
+    }
+    .borderbox2{
+        width: 40%;
+        margin: 1rem;
+    }
+    .borderbox{
+        width: 40%;
+        margin: 1rem;
+    }
+    .box1 p{
+        margin-bottom: 1rem;
+        font-size: .8rem;
+    }
+    .flexi{
+        display: flex;
+        flex-wrap: nowrap;
+    }
+    .box2 h2{
+        font-size: 1.3rem;
+        margin-left: 1.1rem;
+    }
+    .box2 p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: .7rem;
+    }
+    .mainbox img{
+        margin: 0;
+        margin-left: 3rem;
+    }
+    .flexi img{
+        margin: 0;
+        margin-left: 3rem;
+    }
+}

@@ -97,3 +97,12 @@
         flex-wrap: wrap;
     }
 }
+@media only screen and (max-width: 1200px) and (min-width: 620px){
+    #projects{
+        flex-direction: row;
+    }
+    .card{
+        display: flex;
+        flex-wrap: wrap;
+    }
+}

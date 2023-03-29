@@ -22,7 +22,11 @@
     padding-bottom: 4rem;
 
 }
+
 .card img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
     padding-top: .5rem;
     margin-top: 3rem;
     height: 10rem;
@@ -61,6 +65,19 @@ button:hover{
 
 
 @media only screen and (max-width: 620px) and (min-width: 300px){
+    .projectheader{
+        font-size: 2.3rem;
+        margin-bottom: 3rem;
+    }
+    .card img{
+        margin-top: .1rem;
+    }
+    .cardbot img{
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 620px){
     .projectheader{
         font-size: 2.3rem;
         margin-bottom: 3rem;
