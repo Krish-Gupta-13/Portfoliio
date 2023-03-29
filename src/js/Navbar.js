@@ -5,8 +5,10 @@ export default function Navbar() {
   return (
     <div>
     <div className="nav">
-    <div className="leftn">
-    <h1>PORTFOLIO</h1></div>
+    {/*} <div className="leftn">
+   <h1>PORTFOLIO</h1>
+   <li className = "navli1"> <a href ="#about">PortFolio</a></li>    
+    </div> {*/}
     <ul>
           <li className = "navli"> <a href ="#about">Home</a></li>
           <li className = "navli"> <a href ="#aboutme">About</a></li>

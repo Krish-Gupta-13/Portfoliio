@@ -17,7 +17,7 @@ export default function Footer() {
     <div className="footerheader">  
     <h1>Let's Connect </h1>
     </div>
-    
+    <div className="container">
         <div className="footerlinks">
           <div className="leftf">
             <h3>Social Media</h3>
@@ -42,7 +42,7 @@ export default function Footer() {
             </ul>     
           </div>
         </div>
-
+      </div>
         <div className="foot">
           <h6>Created By Krish Gupta</h6>
         </div>
