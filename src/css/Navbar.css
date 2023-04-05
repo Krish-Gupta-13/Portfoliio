@@ -30,7 +30,7 @@ ul{
   .navli{
     padding: 1rem;
 }
-z
+
   .navli::after {
     content: "";
     display: block;

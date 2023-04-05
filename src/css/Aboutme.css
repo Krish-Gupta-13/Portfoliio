@@ -12,7 +12,6 @@
 
 .holder{
     display: flex;
-    flex-direction: column;
 }
 .left{
     width: 40%;
@@ -22,7 +21,6 @@
     width: 60%;
 }
 .right p{
-    /* display: flex; */
     font-family: Galaxie, Lustria, "Times New Roman", serif;
     padding-top: 2rem;
     line-height: 1.5rem;
