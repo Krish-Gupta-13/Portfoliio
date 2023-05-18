@@ -16,10 +16,7 @@ ul{
     display: flex;
     padding: .6rem;
     list-style: none;
-    /* align-items: right; */
-    /* align-items: center; */
-    justify-content: right;
-    margin-right: 8rem;
+    justify-content: left;
 }
 
  li a{
@@ -50,11 +47,11 @@ ul{
   }
 
 
-  @media only screen and (max-width: 620px) and (min-width: 300px){
+  @media only screen and (max-width: 500px) and (min-width: 300px){
     .nav{
       position: fixed;
       height: 7vh;
-      width: auto;
+      width: 100%;
       z-index: 10;
       padding-left: .1rem;
   }
@@ -64,11 +61,11 @@ ul{
 }
 }
 
-@media only screen and (max-width: 1200px) and (min-width: 620px){
+@media only screen and (max-width: 1200px) and (min-width: 500px){
   .nav{
     position: fixed;
-    height: 7vh;
-    width: auto;
+    height: 9vh;
+    width: 100%;
     z-index: 10;
     padding-left: .1rem;
 }

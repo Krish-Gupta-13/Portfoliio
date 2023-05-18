@@ -1,11 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    
 }
 .footerbody{
+    position: relative;
+    align-items: center;
+    justify-content: center;
     background-color: black;
     font-family: 'Raleway', 'Alkatra';
+    width: 100%;
 }
 .footerheader h1{
     font-family: 'Raleway', 'Alkatra';
@@ -29,24 +32,36 @@ h3{
     font-family: Galaxie, Lustria, "Times New Roman", serif;
 }
 .rightf{
+    position: relative;
     align-items: center;
     justify-content: center;
 }
 .leftf{
+    position: relative;
     align-items: center;
     justify-content: center;
 }
 .leftf img{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
     height: 4rem;
     width: 4rem;
     margin: 1rem;
-    margin-left: 8.2rem;
+    margin-left: 6.2rem;
+    /* margin-left: 10%;
+    margin-right: 10%; */
 }
 .rightf img{
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
     height: 4rem;
     width: 4rem;
     margin: 1rem;
-    margin-left: 8.2rem;
+    margin-left: 6.2rem;
 }
 .foot{
     display: flex;
@@ -67,12 +82,10 @@ h3{
 }
 
 
-@media only screen and (max-width: 620px) and (min-width: 300px){
-    /* .leftf li a{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    } */
+@media only screen and (max-width: 620px) and (min-width: 320px){
+    #footer{
+        width: 26rem;
+    }
     .leftf img{
         /* margin: auto; */
         height: 2rem;
@@ -99,14 +112,14 @@ h3{
 
 @media only screen and (max-width: 1200px) and (min-width: 620px){
     .leftf img{
-        height: 2rem;
-        width: 2rem;
+        height: 3rem;
+        width: 3rem;
         margin: 1rem;
         margin-left: 1.5rem;
     }
     .rightf img{
-        height: 2rem;
-        width: 2rem;
+        height: 3rem;
+        width: 3rem;
         margin: 1rem;
         margin-left: 1.5rem;
         /* margin-left: 2rem; */

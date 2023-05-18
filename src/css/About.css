@@ -11,9 +11,7 @@
     left: 0px;
     top: 0px;
     right: 0px;
-    /* height: 48rem; */
     height: auto;
-    /* width: 114.6; */
     width: 100%;
     background-color: black;
     opacity: .9;
@@ -39,7 +37,7 @@
     justify-content: center;
     align-items: center;
 }
-.btn{
+.abtn{
     align-items: center;
     justify-self: center;
     height: 3rem;
@@ -48,20 +46,20 @@
     cursor: pointer;
 }
 
-button{
+#btna{
     background-color: rgb(87, 86, 86);
     margin: 3rem;
     margin-left: 9rem;
     box-shadow: 2px 2px gray;
 }
-button:hover{
+#btna:hover{
     box-shadow: 2px 2px rgb(107, 105, 105);
 }
-.btn a{
+.abtn a{
     text-decoration: none;
     color: white;
 }
-.btn a:hover{
+.abtn a:hover{
     color: black;
 }
 
@@ -76,7 +74,7 @@ button:hover{
         top: 0px;
         right: 0px;
         height: 30rem;
-        width: 24rem;
+        width: 26.2rem;
         background-color: black;
         opacity: .9;
         z-index: -1;
@@ -92,7 +90,7 @@ button:hover{
         font-size: 1.2rem;
         color: white;
     }
-    .btn{
+    .abtn{
         height: 2rem;
         width: 8rem;
         font-size: 1.2rem;
@@ -109,8 +107,8 @@ button:hover{
         left: 0px;
         top: 0px;
         right: 0px;
-        height: 30rem;
-        width: 24rem;
+        height: 100%;
+        width: 100%;
         background-color: black;
         opacity: .9;
         z-index: -1;
@@ -126,7 +124,7 @@ button:hover{
         font-size: 1.2rem;
         color: white;
     }
-    .btn{
+    .abtn{
         height: 2rem;
         width: 8rem;
         font-size: 1.2rem;

@@ -71,6 +71,7 @@ export default function Skills() {
           </div>
         </div> 
     </div>
+    
       <div className="heading">
         <h1>Back-End</h1>
       </div>

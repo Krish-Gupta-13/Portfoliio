@@ -8,6 +8,9 @@
 }
 
 .skillsbody{
+    position: relative;
+    justify-content: center;
+    align-items: center;
     background-color: rgb(212, 221, 229);
     padding-top: 5vh;
     padding-bottom: 5rem;
@@ -34,15 +37,28 @@
     font-family: 'Raleway';
 }
 .mainbox{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flexi{
+    position: relative;
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-wrap: wrap;
 }
 
 .borderbox{
+    position: relative;
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
     height: 11rem;
     width: 18rem;
-    margin-left: 5.2rem;
+    margin: 1.5rem;
     border-radius: .7rem;
     background-color: #bebaba;
     box-shadow: 2px 2px 6px 6px #bebaba;
@@ -50,13 +66,13 @@
 
 .borderbox2{
     display: flex;
-    /* flex-wrap: wrap; */
+    position: relative;
+    justify-content: center;
+    align-items: center;
     border: 2px solid black;
     height: 11rem;
     width: 18rem;
     margin: 2rem;
-    border-radius: .7rem;
-    margin-left: 11.5rem;
     border-radius: .7rem;
     background-color: #bebaba;
     box-shadow: 2px 2px 6px 6px #bebaba;
@@ -68,118 +84,105 @@
     box-shadow: 2px 2px 6px 6px #888888;
 }
 
+
+
+.box1 h2{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
+.box2 h2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: .5rem;
+}
 .box1 img{
     display: flex;
     height: 4.7rem;
     width: 5.6rem;
     padding-left: 2.3rem;
     padding-top: 1.2rem;
-}
-
-.box1 h2{
-    display: flex;
+    position: relative;
     justify-content: center;
     align-items: center;
-    margin: .5rem;
 }
-.box2 h2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: .5rem;
-}
-
-
 
 .box2 img{
     display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
     height: 4.7rem;
     width: 5.6rem;
-    padding-left: 2.3rem;
-    padding-top: 1.2rem;
+    margin-right: 3.5rem;
 }
 
 .box1 p{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
-    padding-bottom: 3rem;
 }
 .box2 p{
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: center;
-    margin-bottom: 3rem;
-    padding-bottom: 3rem;
-}
-.flexi{
-    display: flex;
-    flex-wrap: wrap;
-}
-.box2 h2{
-    margin-left: 5.2rem;
-}
-.box2 p{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-left: 4.7rem;
 }
 
+
 @media only screen and (max-width: 620px) and (min-width: 300px){
+    #skills{
+        width: 26rem;
+    }
     .header h1{
         font-size: 3rem;
     }
     .heading h1{
         font-size: 2rem;
     }
-    .box1 img{
-        padding-left: 0rem;
-        padding-top: 1.2rem;
-        height: 3.7rem;
-        width: 4rem;
-        margin-right: 3rem;
-    }
-    .box2 img{
-        padding-left: 0rem;
-        padding-top: 1.2rem;
-        height: 3.7rem;
-        width: 4rem;
-    }
-    .borderbox2{
-        width: 40%;
-        margin: 1rem;
-    }
-    .borderbox{
-        width: 40%;
-        margin: 1rem;
-    }
-    .box1 p{
-        margin-bottom: 1rem;
-        font-size: .8rem;
-    }
-    .flexi{
-        display: flex;
-        flex-wrap: nowrap;
-    }
-    .box2 h2{
-        font-size: 1.3rem;
-        margin-left: 1.1rem;
-    }
-    .box2 p{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin-left: .7rem;
-    }
     .mainbox img{
         margin: 0;
-        margin-left: 3rem;
     }
-    .flexi img{
+    .flexi{
         margin: 0;
-        margin-left: 3rem;
+    }
+    .borderbox{
+        margin: .8rem;
+        width: 6.5rem;
+        height: 7rem;
+    }
+    
+    .box1 img{
+        border-radius: 0;
+        height: 2.2rem;
+        width: 2.2rem;
+    }
+    
+    .box1 p{
+        font-size: .5rem;
+    }
+    .box1 h2{
+        font-size: .8rem;
+    }
+    .box2 img{
+        border-radius: 0;
+        height: 2.2rem;
+        width: 2.2rem;
+    }
+    .borderbox2{
+        width: 6.5rem;
+        height: 7rem;
+        margin: 1.5rem;
+    }
+    .box2 h2{
+        font-size: .8rem;
+    }
+    .box2 p{
+        font-size: .5rem;
     }
 }
 

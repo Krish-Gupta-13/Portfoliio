@@ -8,17 +8,26 @@
 }
 .header h1{
     font-family: 'Raleway', 'Alkatra';
+    position: relative;
+    align-items: center;
+    justify-content: center;
 }
 
 .holder{
     display: flex;
 }
 .left{
+    position: relative;
+    align-items: left;
+    justify-content: left;
     width: 40%;
 }
 .right{
+    position: relative;
+    align-items: right;
+    justify-content: right;
     margin: 3rem;
-    width: 60%;
+    width: 70%;
 }
 .right p{
     font-family: Galaxie, Lustria, "Times New Roman", serif;
@@ -36,18 +45,20 @@ img{
 @media only screen and (max-width: 620px) and (min-width: 300px){
     .holder{
         flex-direction: column;
-        /* max-width: 610px; */
         padding-top: 1rem;
     }
     .right p{
-        width: 90%;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
         padding-top: 1rem;
+        padding-right: 1rem;
         line-height: 1.4rem;
         font-size: .8rem;
     }
     .left{
-        
-        width: 80%;
+        width: 100%;
     }
     .right{
         width: 90%;
@@ -61,9 +72,13 @@ img{
 
 @media only screen and (max-width: 1200px) and (min-width: 620px){
     .holder{
-        flex-direction: column;
-        /* max-width: 310px; */
         padding-top: 1rem;
+    }
+    img{
+        margin-left: 4rem;
+        border-radius: 1rem;
+        width: 14rem;
+        height: 18rem;
     }
     .right p{
         padding-top: 1rem;
@@ -71,10 +86,10 @@ img{
         font-size: .8rem;
     }
     .left{
-        width: 100%;
+        width: 40%
     }
     .right{
-        width: 90%;
+        width: 70%;
     }
     .aboutmebody{
         padding-top: 3vh;
