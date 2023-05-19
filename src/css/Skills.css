@@ -15,6 +15,7 @@
     padding-top: 5vh;
     padding-bottom: 5rem;
     background: linear-gradient(rgb(209, 232, 232),rgb(212, 221, 229));
+    width: 100%;
 }
 
 .header h1{
@@ -136,7 +137,7 @@
 
 @media only screen and (max-width: 620px) and (min-width: 300px){
     #skills{
-        width: 26rem;
+        width: 105%;
     }
     .header h1{
         font-size: 3rem;
@@ -152,7 +153,7 @@
     }
     .borderbox{
         margin: .8rem;
-        width: 6.5rem;
+        width: 6.2rem;
         height: 7rem;
     }
     
@@ -196,10 +197,12 @@
     }
     .box1 img{
         padding-left: 0rem;
-        padding-top: 1.2rem;
+        position: relative;
+        align-items: center;
+        justify-content: center;
         height: 3.7rem;
         width: 4rem;
-        margin-right: 3rem;
+
     }
     .box2 img{
         padding-left: 0rem;
@@ -208,11 +211,12 @@
         width: 4rem;
     }
     .borderbox2{
-        width: 40%;
+        /* width: 40%; */
         margin: 1rem;
     }
     .borderbox{
-        width: 40%;
+        /* width: 40%; */
+        width: 14rem;
         margin: 1rem;
     }
     .box1 p{

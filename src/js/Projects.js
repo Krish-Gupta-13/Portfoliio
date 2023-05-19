@@ -17,7 +17,7 @@ export default function Projects() {
                 <img src={img5} alt="" />
                 <div className="cardbot">
                     <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>
-                    <button className='btnn'><a href="hhttps://minipros.netlify.app/">Visit Here</a></button>
+                    <button className='btnn'><a href="https://www.youtube.com/watch?v=9_dRgUf6GFc">Visit Here</a></button>
                 </div>
             </div>
 
@@ -25,7 +25,7 @@ export default function Projects() {
                 <img src={img2} width="220" height="200" controls="controls" autoplay="false" />
                 <div className="cardbot">
                     <a href="https://github.com/Krish-Gupta-13/GeeksForGeekss"><img src={img1} alt="" /></a>
-                    <button className='btnn'><a href="https://gfg-clo.netlify.app/">Visit Here</a></button>
+                    <button className='btnn'><a href="https://youtu.be/IXYz-i_jRHs">Visit Here</a></button>
                 </div>
                 {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/} 
             </div>
@@ -34,7 +34,7 @@ export default function Projects() {
                 <img src={img3} width="220" height="200" controls="controls" autoplay="false"/>
                 <div className="cardbot">
                     <a href="https://github.com/Krish-Gupta-13/Atri-Labs"><img src={img1} alt="" /></a>
-                    <button className='btnn'><a href="https://atrilabs.netlify.app/">Visit Here</a></button>
+                    <button className='btnn'><a href="https://youtu.be/HIpiQbjRctU">Visit Here</a></button>
                 </div>
                {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/}
             </div>
@@ -43,7 +43,7 @@ export default function Projects() {
                 <img src={img4} width="220" height="200" controls="controls" autoplay="false" />
                 <div className="cardbot">
                     <a href="https://github.com/Krish-Gupta-13/Cafessa"><img src={img1} alt="" /></a>
-                    <button className='btnn'><a href="https://cafessa.netlify.app/">Visit Here</a></button>
+                    <button className='btnn'><a href="https://youtu.be/J1kutOz19mc">Visit Here</a></button>
                 </div>
           {/*}      <a href="https://github.com/Krish-Gupta-13/Web-Cifar"><img src={img1} alt="" /></a>{*/}
             </div>

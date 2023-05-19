@@ -5,6 +5,7 @@
 .aboutmebody{
     padding-top: 30vh;
     padding-bottom: 2rem;
+    width: 100%;
 }
 .header h1{
     font-family: 'Raleway', 'Alkatra';
@@ -20,7 +21,7 @@
     position: relative;
     align-items: left;
     justify-content: left;
-    width: 40%;
+    width: 30%;
 }
 .right{
     position: relative;
@@ -46,14 +47,15 @@ img{
     .holder{
         flex-direction: column;
         padding-top: 1rem;
+        width: 100%;
     }
     .right p{
         position: relative;
         align-items: center;
         justify-content: center;
-        width: 100%;
+        width: 105%;
         padding-top: 1rem;
-        padding-right: 1rem;
+        /* padding-right: 1rem; */
         line-height: 1.4rem;
         font-size: .8rem;
     }
@@ -61,7 +63,7 @@ img{
         width: 100%;
     }
     .right{
-        width: 90%;
+        width: 78%;
     }
     .aboutmebody{
         padding-top: 3vh;
@@ -71,8 +73,12 @@ img{
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 620px){
+    .header h1{
+        margin-top: 4rem;
+    }
     .holder{
         padding-top: 1rem;
+        /* margin-top: 4rem; */
     }
     img{
         margin-left: 4rem;

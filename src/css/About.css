@@ -4,6 +4,7 @@
 }
 
 .aboutbody::after{
+    width: 100%;
     margin-left: 0;
     content: "";
     background: url('../Images/bg2.webp') no-repeat center center/cover;
@@ -12,17 +13,17 @@
     top: 0px;
     right: 0px;
     height: auto;
-    width: 100%;
     background-color: black;
     opacity: .9;
     z-index: -1;
     height: 100vh;
 }
-.aboutbody img{
+/* .aboutbody img{
     width: 0rem;
     height: 0rem;
-}
+} */
 .left h1{
+    position: relative;
     font-size: 3rem;
     font-family: Galaxie, Lustria, "Times New Roman", serif;
     padding-top: 12rem;
@@ -74,11 +75,10 @@
         top: 0px;
         right: 0px;
         height: 30rem;
-        width: 26.2rem;
         background-color: black;
         opacity: .9;
         z-index: -1;
-
+        width: 105%;
     }
     .left h1{
         font-size: 1.8rem;
@@ -98,7 +98,11 @@
 }
 
 @media only screen and (max-width: 1200px) and (min-width: 620px){
-   
+   #about{
+    position: relative;
+        align-items: center;
+        justify-content: center;
+   }
     .aboutbody::after{
         margin-left: 0;
         content: "";
@@ -115,6 +119,9 @@
 
     }
     .left h1{
+        position: relative;
+        align-items: center;
+        justify-content: center;
         font-size: 1.8rem;
         padding-top: 18rem;
         color: white;
