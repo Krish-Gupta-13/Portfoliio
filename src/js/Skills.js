@@ -17,12 +17,14 @@ import img11 from '../Images/java.png'
 // import { ReactComponent as Logo } from './bg1.jpg'
 // import Logo from './bg1.jpg'
 
+
+
 export default function Skills() {
   return (
-    <section id='skills'>
-    <div className='skillsbody'>
+    <section id='skills reveal'>
+    <div className='skillsbody reveal'>
 
-      <div className="header">
+      <div className="header reveal">
         <h1>Skills</h1>
       </div>
       <div className="heading">

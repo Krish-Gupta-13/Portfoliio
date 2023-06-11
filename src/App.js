@@ -1,5 +1,7 @@
 import './css/App.css';
 import ReactDOM from 'react-dom';
+import React from 'react';
+// import Zoom from 'react-reveal/Zoom';
 // import { BrowserRouter as Router, Switch, Route, BrowserRouter } from 'react-router-dom';
 // import { HashLink as Link } from "react-router-hash-link"
 // import {Link} from "react-router-dom"
@@ -16,7 +18,6 @@ import AboutCss from './css/About.css';
 import SkillsCss from './css/Skills.css';
 import AboutMeCss from './css/Aboutme.css';
 import ProjectsCss from './css/Projects.css';
-
 // import 'bootstrap/dist/css/bootstrap.css';
 
 function App() {
