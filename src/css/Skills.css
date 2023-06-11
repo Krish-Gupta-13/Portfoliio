@@ -42,14 +42,14 @@
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 .flexi{
     position: relative;
     justify-content: center;
     align-items: center;
     display: flex;
-    flex-wrap: wrap;
+    /* flex-wrap: wrap; */
 }
 
 .borderbox{
@@ -63,6 +63,8 @@
     border-radius: .7rem;
     background-color: #bebaba;
     box-shadow: 2px 2px 6px 6px #bebaba;
+    min-width: 6rem;
+    max-width: 18rem;
 }
 
 .borderbox2{
@@ -77,6 +79,8 @@
     border-radius: .7rem;
     background-color: #bebaba;
     box-shadow: 2px 2px 6px 6px #bebaba;
+    min-width: 6rem;
+    max-width: 18rem;
 }
 .borderbox:hover{
     box-shadow: 2px 2px 6px 6px #888888;
@@ -101,14 +105,14 @@
     margin: .5rem;
 }
 .box1 img{
+    position: relative;
+    justify-content: center;
+    align-items: center;
     display: flex;
     height: 4.7rem;
     width: 5.6rem;
     padding-left: 2.3rem;
     padding-top: 1.2rem;
-    position: relative;
-    justify-content: center;
-    align-items: center;
 }
 
 .box2 img{
@@ -118,7 +122,9 @@
     align-items: center;
     height: 4.7rem;
     width: 5.6rem;
-    margin-right: 3.5rem;
+    margin-right: 3.9rem;
+    /* margin-left: 50%; */
+    /* margin-right: 70%; */
 }
 
 .box1 p{
@@ -146,6 +152,9 @@
         font-size: 2rem;
     }
     .mainbox img{
+        position: relative;
+        justify-content: center;
+        align-items: center;
         margin: 0;
     }
     .flexi{
@@ -202,32 +211,41 @@
         justify-content: center;
         height: 3.7rem;
         width: 4rem;
+        padding-right: 2.6rem;
 
     }
     .box2 img{
+        /* position: relative;
+        justify-content: center;
+        align-items: center; */
         padding-left: 0rem;
         padding-top: 1.2rem;
         height: 3.7rem;
         width: 4rem;
+        /* margin-right: 14rem; */
+        padding-right: 2rem;
+
     }
     .borderbox2{
         /* width: 40%; */
-        width: 14rem;
+        /* width: 14rem; */
+        width: 33%;
         margin: 1rem;
     }
     .borderbox{
-        /* width: 40%; */
-        width: 14rem;
+        display: flex;
+        min-width: 8rem;
+        max-width: 18rem;
         margin: 1rem;
     }
     .box1 p{
         margin-bottom: 1rem;
         font-size: .8rem;
     }
-    .flexi{
+    /* .flexi{
         display: flex;
         flex-wrap: nowrap;
-    }
+    } */
     .box2 h2{
         font-size: 1.3rem;
         margin-left: 1.1rem;
